@@ -1,0 +1,136 @@
+body {
+    font-size: 15pt;
+    margin: 0;
+    
+    background: linear-gradient(135deg, #ff6a00, #ee0979, #7f00ff,  #00c6ff);
+    
+    width: 100%;
+    height: 700px;
+    min-height: 100dvh;
+    overflow: none;
+
+
+}
+
+
+
+.div{
+    background: rgba(255, 255, 255, 0.2);
+    width: 90%;
+    height: 65%;
+    margin-left: 5vw;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
+}
+
+
+.h{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+
+.inputbox{
+    margin: 20px 0;
+    border: none;
+    margin-left: 3vw;
+    padding: 10px;
+    width: 75%;
+    border-radius: 15px;
+    height: 10%;
+    margin-top: 20px;
+    color: #888;
+    background: rgba(255, 255, 255, 0.2);
+    background-image: url("img/a.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 50px;
+    
+    color: white;
+    filter: brightness(0) invert(1);
+    
+    font-size: 15px;
+    border-bottom: 2px solid red;
+    animation-name: kero;
+    animation-duration: 5s;
+    
+}
+
+.inputbox1{
+    border: none;
+    margin-left: 3vw;
+    padding: 10px;
+    width: 75%;
+    border-radius: 15px;
+    height: 10%;
+    margin-top: -10px;
+    color: #888;
+    /*الون الشفاف*/
+    background: rgba(255, 255, 255, 0.2);
+    background-image: url("img/b.png");
+    /*علشان الصور متتكررش*/
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 50px;
+    
+    color: white;
+    /* لي تلوين بي القيقونه الون البيض*/
+    filter: brightness(0) ;
+    font-size: 15px;
+    border-bottom: 2px solid red;
+    animation-name: kero;
+    animation-duration: 5s;
+}
+
+
+
+.button{
+    padding: 10px;
+    margin-left: 15px;
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 40px;
+    height: 15vw;
+    font-size: 20px;
+    background: linear-gradient(135deg, #ff6a00,#FF00D3);
+    color: white;
+    /*لي اصافل ظل بي الون الاسود خفيف*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation-name: kero;
+    animation-duration: 5s;
+    
+}
+
+@keyframes kero {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+    
+  }
+}
+.button:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to right, darkorange, hotpink); /* لون أغمق عند الـ hover */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3); /* ظل أوضح */
+}
+
+.p{
+    text-align: center;
+    color: #eee;
+    font-size: 15px;
+    margin-top: 35px;
+
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
